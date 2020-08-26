@@ -9,7 +9,7 @@ const Modal = ({heading, children}) => {
       <header className={styles.header}>
         <div className={styles.heading}>{heading}</div>
         <div className={styles.close}>
-          <Link to="/">&#10007;</Link>
+          <Link to="/eureka">&#10007;</Link>
         </div>
       </header>
       <div className={styles.content}>{children}</div>

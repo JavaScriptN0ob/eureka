@@ -9,7 +9,7 @@ function Header (props) {
     <div className = { styles.Main }>
       <Link 
         className = { styles.Close }
-        to="/"
+        to="/eureka"
       > 
         &times; 
       </Link> 

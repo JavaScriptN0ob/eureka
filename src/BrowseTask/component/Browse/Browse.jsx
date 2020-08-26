@@ -57,7 +57,7 @@ function Browse() {
 
   return(
     <div className = {cx('browse')}>
-      <Link className={styles.back_to_home} to="/">&#10007;</Link>
+      <Link className={styles.back_to_home} to="/eureka">&#10007;</Link>
       <Provider store = {store}>
         <TaskList/>
         <TaskDetail/>

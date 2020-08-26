@@ -9,7 +9,7 @@ function BrowseTask() {
   return (
     <div className="App">
       <Browse/>
-      <Link to="/">Back to home</Link>
+      <Link to="/eureka">Back to home</Link>
     </div>
   );
 }

@@ -45,11 +45,11 @@ const App = () => {
   return (
     <div className="App">
         <Switch>
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/post" component={Post} />
-          <Route exact path="/browse" component={BrowseTask} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signUp" component={Signup} />
+          <Route exact path="/eureka" component={MainPage} />
+          <Route exact path="/eureka/post" component={Post} />
+          <Route exact path="/eureka/browse" component={BrowseTask} />
+          <Route exact path="/eureka/login" component={Login} />
+          <Route exact path="/eureka/signUp" component={Signup} />
         </Switch>
       </div>
   );

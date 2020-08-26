@@ -44,7 +44,7 @@ class Navigation extends React.Component {
               <a 
                 className = {styles.postTask} 
                 onMouseOver={this.handleCategoryLeave}
-                onClick={() => this.props.history.push("/post")}
+                onClick={() => this.props.history.push("/eureka/post")}
               >
                 Post a task
               </a>
@@ -57,7 +57,7 @@ class Navigation extends React.Component {
               <a 
                 className = {styles.browseTasks}
                 onMouseOver={this.handleCategoryLeave}
-                onClick={() => this.props.history.push("/browse")}
+                onClick={() => this.props.history.push("/eureka/browse")}
               >
                 Browse tasks
               </a>
@@ -68,13 +68,13 @@ class Navigation extends React.Component {
               <a className = {styles.becomeTasker}>Become a Tasker</a>
               <a 
                 className = {styles.logIn}
-                onClick={() => this.props.history.push("/login")}
+                onClick={() => this.props.history.push("/eureka/login")}
               >
                 Log in
               </a>
               <a
                 className = {styles.signUp}
-                onClick={() => this.props.history.push("/signUp")}
+                onClick={() => this.props.history.push("/eureka/signUp")}
               >
                 Sign up
               </a>
