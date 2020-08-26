@@ -1,0 +1,18 @@
+
+.browse{
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 106px;
+  height: calc(100vh - 106px);
+  display: flex;
+  word-wrap: break-word;
+}
+
+.back_to_home {
+  position: absolute;
+  right: 0;
+  top: 1vh;
+  zoom: 1.3;
+}

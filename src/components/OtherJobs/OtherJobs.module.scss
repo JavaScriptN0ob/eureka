@@ -1,0 +1,23 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+.OtherJobs__container {
+  height: 55vw;
+  width: 100vw;
+  background-color: rgb(246, 248, 253);
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: rgb(41, 43, 50);
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.15px;
+    text-align: center;
+    margin: 30px 0px 5px;
+    padding: 20px 0;
+  }
+
+}

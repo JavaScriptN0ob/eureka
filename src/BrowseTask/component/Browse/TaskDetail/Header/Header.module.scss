@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  margin: 10px 20px;
+
+  .detail-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    .title{
+      height: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #292b32;
+      display: flex;
+      justify-content: left;
+      
+      h1{
+        margin: 0;
+        font-weight: 300;
+        font-size: 30px;
+      }
+    } 
+
+  }
+
+  .sidebar{
+
+  }
+}
