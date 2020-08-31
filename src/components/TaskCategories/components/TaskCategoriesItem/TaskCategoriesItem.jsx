@@ -20,5 +20,4 @@ function TaskCategoriesItem({
 	);
 }
 
-
 export default TaskCategoriesItem;
